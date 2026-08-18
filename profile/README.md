@@ -1,25 +1,21 @@
 # Home Health Hub
 
-A household health-data appliance and the independent device daemons it aggregates. Each daemon is fully usable on its own — installing Health Hub is never a prerequisite for using any of them individually.
+Home Health Hub brings the health devices you already use — a glucose meter, a blood pressure cuff, a pulse oximeter ring, a smart scale — into one place, on a computer in your own home. No cloud account, no company reading your numbers. Your data stays yours.
 
-## Health Hub
+## What's here
 
-- **[healthhub](https://github.com/home-health-hub/healthhub)** — Preliminary architecture and design documentation. Documentation only, no code yet.
+Each device has its own small program that talks to it, keeps its history, and can make you a report to bring to a doctor's visit. Home Health Hub ties them together into one view.
 
-## Device daemons
+- **[Home Health Hub](https://github.com/home-health-hub/healthhub)** — the shared dashboard and design docs (early days — documentation only so far)
+- **Glucose meter** (TrueMetrix) — [trividia-truemetrix-daemon](https://github.com/home-health-hub/trividia-truemetrix-daemon)
+- **Pulse oximeter ring** (Viatom O2Ring) — [viatom-o2ring-daemon](https://github.com/home-health-hub/viatom-o2ring-daemon)
+- **Smart scale** (Etekcity) — [etekcity-scale-daemon](https://github.com/home-health-hub/etekcity-scale-daemon)
+- **Blood pressure monitor** (Etekcity) — [etekcity-bp-daemon](https://github.com/home-health-hub/etekcity-bp-daemon)
 
-- **[trividia-truemetrix-daemon](https://github.com/home-health-hub/trividia-truemetrix-daemon)** — TrueMetrix glucose meter
-- **[viatom-o2ring-daemon](https://github.com/home-health-hub/viatom-o2ring-daemon)** — Viatom O2Ring pulse oximeter
-- **[etekcity-scale-daemon](https://github.com/home-health-hub/etekcity-scale-daemon)** — Etekcity smart scale
-- **[etekcity-bp-daemon](https://github.com/home-health-hub/etekcity-bp-daemon)** — Etekcity blood pressure monitor
+Each of those works fine on its own too — you don't need Home Health Hub just to use one device.
 
-## Device drivers
-
-- **[trividia-truemetrix-ble](https://github.com/home-health-hub/trividia-truemetrix-ble)** — TrueMetrix BLE driver
-- **[trividia-truemetrix-hid](https://github.com/home-health-hub/trividia-truemetrix-hid)** — TrueMetrix USB HID driver
-- **[viatom-o2ring-ble](https://github.com/home-health-hub/viatom-o2ring-ble)** — O2Ring BLE driver
-- **[etekcity-bp-ble](https://github.com/home-health-hub/etekcity-bp-ble)** — Etekcity BP BLE driver
+The remaining repositories here are the low-level Bluetooth/USB connections the programs above rely on — only really relevant if you're building or troubleshooting one of them yourself.
 
 ## License
 
-All repositories in this organization are licensed under the **GNU General Public License v3.0**.
+Everything here is free and open source, under the GNU General Public License v3.0.
