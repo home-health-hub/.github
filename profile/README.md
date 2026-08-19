@@ -11,6 +11,7 @@ Each device has its own small program that talks to it, keeps its history, and c
 - **Pulse oximeter ring** (Viatom O2Ring) — [viatom-o2ring-daemon](https://github.com/home-health-hub/viatom-o2ring-daemon)
 - **Smart scale** (Etekcity) — [etekcity-scale-daemon](https://github.com/home-health-hub/etekcity-scale-daemon)
 - **Blood pressure monitor** (Etekcity) — [etekcity-bp-daemon](https://github.com/home-health-hub/etekcity-bp-daemon)
+- **Thermometer** (any standard Bluetooth thermometer, not tied to one brand) — [ble-health-thermometer](https://github.com/home-health-hub/ble-health-thermometer) *(work in progress, not yet tested against real hardware)*
 
 Each of those works fine on its own too — you don't need Home Health Hub just to use one device.
 
