@@ -12,6 +12,7 @@ Each device has its own small program that talks to it, keeps its history, and c
 - **Smart scale** (Etekcity) — [etekcity-scale-daemon](https://github.com/home-health-hub/etekcity-scale-daemon)
 - **Blood pressure monitor** (Etekcity) — [etekcity-bp-daemon](https://github.com/home-health-hub/etekcity-bp-daemon)
 - **Thermometer** (any standard Bluetooth thermometer, not tied to one brand) — [health-thermometer-daemon](https://github.com/home-health-hub/health-thermometer-daemon) *(work in progress, not yet tested against real hardware)*
+- **Basal body thermometer** (Easy@Home EBT-300) — [easyathome-bbt-daemon](https://github.com/home-health-hub/easyathome-bbt-daemon) *(collection and storage only so far, not yet tested against real hardware)*
 
 Each of those works fine on its own too — you don't need Home Health Hub just to use one device.
 
@@ -26,7 +27,7 @@ Everything here is free and open source, under the GNU General Public License v3
 [![License: GPL-3.0](https://img.shields.io/badge/license-GPL--3.0-blue)](https://github.com/home-health-hub/healthhub/blob/main/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/home-health-hub/healthhub#contributing)
 [![Discussions](https://img.shields.io/badge/discussions-welcome-blue)](https://github.com/home-health-hub/healthhub/discussions)
-[![Devices](https://img.shields.io/badge/devices-5-orange)](#whats-here)
+[![Devices](https://img.shields.io/badge/devices-6-orange)](#whats-here)
 [![Repositories](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Forgs%2Fhome-health-hub&label=repositories&query=%24.public_repos&color=blue)](https://github.com/orgs/home-health-hub/repositories)
 [![Open Issues](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Dorg%3Ahome-health-hub%2Bis%3Aissue%2Bis%3Aopen&label=open%20issues&query=%24.total_count&color=yellow)](https://github.com/search?q=org%3Ahome-health-hub+is%3Aissue+is%3Aopen&type=issues)
 [![Open PRs](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Dorg%3Ahome-health-hub%2Bis%3Apr%2Bis%3Aopen&label=open%20PRs&query=%24.total_count&color=purple)](https://github.com/search?q=org%3Ahome-health-hub+is%3Apr+is%3Aopen&type=pullrequests)
