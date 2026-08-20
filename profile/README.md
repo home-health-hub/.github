@@ -1,6 +1,6 @@
 # Home Health Hub
 
-Home Health Hub brings the health devices you already use — a glucose meter, a blood pressure cuff, a health thermometer, a pulse oximeter ring, a smart scale — into one place, on a computer in your own home. No cloud account, no company reading your numbers. Your data stays yours.
+Home Health Hub brings the health devices you already use — a glucose meter, a blood pressure cuff, a health thermometer, a basal body thermometer, a pulse oximeter ring, a smart scale — into one place, on a computer in your own home. No cloud account, no company reading your numbers. Your data stays yours.
 
 ## What's here
 
